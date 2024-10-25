@@ -1,0 +1,16 @@
+.tulisan-jelek {
+    /* Sesuaikan gaya tulisan di sini */
+    font-family: 'Comic Sans MS', sans-serif; /* Font yang terlihat "jelek" */
+    color: rgb(17, 15, 15); /* Warna merah untuk kesan negatif */
+    text-transform: uppercase; /* Huruf besar semua */
+    text-shadow: 2px 2px 4px #000; /* Efek bayangan */
+    animation: shake 0.5s infinite; /* Animasi goyang */
+  }
+  
+  @keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-10px); }
+    50% { transform: translateX(10px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+  }
